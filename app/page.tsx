@@ -10,7 +10,6 @@ export default async function Home() {
 
   return (
     <div className="flex flex-col min-h-screen font-sans">
-      {/* Hero Section */}
       <section className="relative bg-white dark:bg-zinc-950 border-b border-zinc-200 dark:border-zinc-900 flex flex-col items-center text-center justify-center pt-32 pb-24 px-4">
         <div className="max-w-3xl">
           <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-zinc-950 dark:text-white mb-6">
@@ -27,7 +26,6 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Featured Courses */}
       <section className="py-24 bg-zinc-50 dark:bg-zinc-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12 text-center">
